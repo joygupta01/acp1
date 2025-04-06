@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obj & Arrays</title>
+    <style>
+        *{
+            background-color: black;
+            color: aqua;
+        }
+        #obj{
+            color: bisque;
+            font-family: cursive;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="aa">Hello</h1>
+    <h1 style="text-align: center;color: rgb(180, 224, 0) ;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: bolder; text-decoration: underline overline;">Objects & Array</h1>
+    <p id="ab"></p>
+    <p id="join"></p>
+    <p id="pop"></p>
+    <p id="obj"></p>
+  
+    <script>
+        var fruit= {
+benefits: "Rich Source of VITAMINS and MINERALS",
+color: "Available In DIFFERENT"
+        }
+
+        var Array= [
+            "Apple",
+            "Mango",
+            "Banana",
+            "Kiwi"
+        ];
+        document.getElementById("ab").innerHTML= Array[1];
+        document.getElementById("join").innerHTML= Array.join("👉🏼")
+        Array.pop()
+        document.getElementById("pop").innerHTML= Array
+
+        document.getElementById("obj").innerHTML= " Fruits "+" Are "+ fruit.benefits + " & "+ " are "+ fruit.color +" colors"
+        
+        var Dom =
+document.getElementById("aa").innerHTML;
+alert("Hello I am JOY")
+    </script> 
+</body>
+</html>
